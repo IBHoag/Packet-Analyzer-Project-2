@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-3">Upload PCAP File</h2>
+
+<form action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data" class="mt-3">
+    <div class="mb-3">
+        <input type="file" name="pcapfile" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+{% endblock %}

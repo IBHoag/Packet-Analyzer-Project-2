@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Analysis Tool</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand" href="{{ url_for('index') }}">Network Tool</a>
+
+    <div class="navbar-nav">
+        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('dns_page') }}">DNS Analysis</a>
+        <a class="nav-link" href="{{ url_for('upload') }}">Upload PCAP</a>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    {% block content %}
+    {% endblock %}
+</div>
+
+</body>
+</html>

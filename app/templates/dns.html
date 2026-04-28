@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-3">DNS Analysis</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Timestamp</th>
+            <th>Client IP</th>
+            <th>DNS Query</th>
+            <th>Alert</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    {% for row in dns_data %}
+        <tr>
+            <td>{{ row.timestamp }}</td>
+            <td>{{ row.client_ip }}</td>
+            <td>{{ row.query }}</td>
+            <td>
+                {% if row.alert == "Suspicious" %}
+                    <span class="badge bg-danger">Suspicious</span>
+                {% else %}
+                    <span class="badge bg-success">None</span>
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
