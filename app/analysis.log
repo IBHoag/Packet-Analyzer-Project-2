@@ -1,0 +1,33 @@
+2026-04-27 14:19:01,497 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 14:19:01,497 - [33mPress CTRL+C to quit[0m
+2026-04-27 14:19:01,498 -  * Restarting with stat
+2026-04-27 14:19:01,796 -  * Debugger is active!
+2026-04-27 14:19:01,798 -  * Debugger PIN: 111-739-518
+2026-04-27 14:20:57,705 - 127.0.0.1 - - [27/Apr/2026 14:20:57] "GET / HTTP/1.1" 200 -
+2026-04-27 14:20:59,241 - 127.0.0.1 - - [27/Apr/2026 14:20:59] "GET / HTTP/1.1" 200 -
+2026-04-27 17:22:02,903 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 17:22:02,905 - [33mPress CTRL+C to quit[0m
+2026-04-27 17:22:02,906 -  * Restarting with stat
+2026-04-27 17:22:03,205 -  * Debugger is active!
+2026-04-27 17:22:03,208 -  * Debugger PIN: 111-739-518
+2026-04-27 17:22:38,836 - 127.0.0.1 - - [27/Apr/2026 17:22:38] "GET / HTTP/1.1" 200 -
+2026-04-27 17:22:47,732 - 127.0.0.1 - - [27/Apr/2026 17:22:47] "GET / HTTP/1.1" 200 -
+2026-04-27 17:22:55,319 - 127.0.0.1 - - [27/Apr/2026 17:22:55] "[32mGET /start HTTP/1.1[0m" 302 -
+2026-04-27 17:22:55,330 - 127.0.0.1 - - [27/Apr/2026 17:22:55] "GET / HTTP/1.1" 200 -
+2026-04-27 17:22:56,569 - 127.0.0.1 - - [27/Apr/2026 17:22:56] "[32mGET /stop HTTP/1.1[0m" 302 -
+2026-04-27 17:22:56,577 - 127.0.0.1 - - [27/Apr/2026 17:22:56] "GET / HTTP/1.1" 200 -
+2026-04-27 17:23:03,251 - DNS Query: example.com from 192.168.1.10
+2026-04-27 17:23:03,251 - DNS Query: suspicious-domain.xyz from 192.168.1.15
+2026-04-27 17:23:03,251 - DNS Query: ajd92k3md9q0x1z8.com from 192.168.1.22
+2026-04-27 17:23:03,254 - 127.0.0.1 - - [27/Apr/2026 17:23:03] "GET /dns HTTP/1.1" 200 -
+2026-04-27 17:23:06,747 - 127.0.0.1 - - [27/Apr/2026 17:23:06] "GET /upload HTTP/1.1" 200 -
+2026-04-27 17:23:09,399 - 127.0.0.1 - - [27/Apr/2026 17:23:09] "GET / HTTP/1.1" 200 -
+2026-04-27 17:23:13,765 - DNS Query: example.com from 192.168.1.10
+2026-04-27 17:23:13,765 - DNS Query: suspicious-domain.xyz from 192.168.1.15
+2026-04-27 17:23:13,765 - DNS Query: ajd92k3md9q0x1z8.com from 192.168.1.22
+2026-04-27 17:23:13,766 - 127.0.0.1 - - [27/Apr/2026 17:23:13] "GET /dns HTTP/1.1" 200 -
+2026-04-27 17:23:19,563 - 127.0.0.1 - - [27/Apr/2026 17:23:19] "GET /upload HTTP/1.1" 200 -
+2026-04-27 17:23:20,468 - 127.0.0.1 - - [27/Apr/2026 17:23:20] "GET / HTTP/1.1" 200 -
+2026-04-27 17:23:23,374 - 127.0.0.1 - - [27/Apr/2026 17:23:23] "GET /upload HTTP/1.1" 200 -
